@@ -3,53 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404 - ページが見つかりませんでした</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            text-align: center;
-            margin: 0;
-            height: 100vh; /* 高さを100vhに設定 */
-            color: #ffffff; /* 文字色を白に設定 */
-            overflow: hidden; /* スクロールを無効にする */
-            transition: background-color 0.5s; /* 背景色の変更を滑らかに */
-        }
-        h1 {
-            font-size: 3em; /* フォントサイズを大きく設定 */
-            margin-top: 100px; /* テキストの位置を調整 */
-        }
-        p {
-            font-size: 1.5em; /* フォントサイズを設定 */
-        }
-        #backButton {
-            margin-top: 30px;
-            padding: 10px 20px;
-            font-size: 1.2em;
-            background-color: rgba(0, 123, 255, 0.8); /* 半透明の背景 */
-            color: #ffffff; /* 文字色を白に設定 */
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-    </style>
+    <title>タイトル</title>
 </head>
 <body>
-
-    <h1>404 - お探しのページは見つかりませんでした</h1>
-    <p>申し訳ありませんが、ご指定のページは存在しないか、移動した可能性があります。</p>
-    <button id="backButton" onclick="window.history.back()">戻る</button>
-
-    <script>
-        function getRandomColor() {
-            // RGBの値を生成（暗めの色を得る）
-            const r = Math.floor(Math.random() * 128); // 0〜127
-            const g = Math.floor(Math.random() * 128); // 0〜127
-            const b = Math.floor(Math.random() * 128); // 0〜127
-            return `rgb(${r}, ${g}, ${b})`;
-        }
-
-        document.body.style.backgroundColor = getRandomColor();
-    </script>
-
+    <p>このサイトはファイルアップロードなどに使用されます。</p>
 </body>
 </html>
